@@ -1,0 +1,23 @@
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fas fa-table"></i>
+        Data Rule</div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Id Rule</th>
+                        <th>Nama Rule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in DatasRole">
+                        <td>{{item.id_Rule}}</td>
+                        <td>{{item.Nama_Rule}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
